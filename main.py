@@ -1,22 +1,29 @@
+import pandas as pd
+# wczytywanie pliku do zmiennej file1
 
-# Python program to
-# demonstrate readline()
+matrix = open('australian.txt').read()
+matrix = [item.split() for item in matrix.split('\n')]
 
 
-# Using readline()
-file1 = open('australian.txt', 'r')
-count = 0
+xx = len(matrix[1])
+print("X:{}".format(xx))
+yy = 0
+
+df = pd.DataFrame(data=d)
+
+xy = 0
+
 
 while True:
-    count += 1
 
-    # Get next line from file
-    line = file1.readline()
+    if matrix[xy][0] == 0 or matrix[xy][0] == 1:
+        yy = yy + 1
+        xy = xy + 1
 
-    # if line is empty
-    # end of file is reached
-    if not line:
-        break
-    print("Line{}: {}".format(count, line.strip()))
 
-file1.close()
+
+
+
+
+
+
