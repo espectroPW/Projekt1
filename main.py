@@ -4,7 +4,7 @@
 
 
 # Using readline()
-file1 = open('myfile.txt', 'r')
+file1 = open('australian.txt', 'r')
 count = 0
 
 while True:
