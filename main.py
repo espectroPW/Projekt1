@@ -1,26 +1,27 @@
 import pandas as pd
+import numpy as np
+
 # wczytywanie pliku do zmiennej file1
 
-matrix = open('australian.txt').read()
-matrix = [item.split() for item in matrix.split('\n')]
+dane = open('australian.txt').read()
+dane = [item.split() for item in dane.split('\n')]
+danepd = pd.DataFrame(data=dane)
+
+typy = open('australian.txt').read()
+typy = [item.split() for item in typy.split('\n')]
+typypd = pd.DataFrame(data=typy)
 
 
-xx = len(matrix[1])
-print("X:{}".format(xx))
-yy = 0
 
-df = pd.DataFrame(data=d)
+print(np.matrix(dane))
 
-xy = 0
+print("#############################")
 
+x = 0
 
 while True:
-
-    if matrix[xy][0] == 0 or matrix[xy][0] == 1:
-        yy = yy + 1
-        xy = xy + 1
-
-
+    print(np.matrix(dane[x][0]))
+    x = x+1
 
 
 
