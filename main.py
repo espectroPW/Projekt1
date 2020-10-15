@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.pyplot import imshow
 
 # wczytywanie pliku do zmiennej file1
 
@@ -36,3 +38,17 @@ def wyswietl(tablica, x, y):
 
 
 
+jeden = [
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],# GIT
+        [0,0,1,0,0,1,1,0,0,1,1,1,0,0,0,0,0,0],# GIT
+        [0,1,1,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0],# GIT
+        [1,0,1,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0],#       G
+        [0,0,1,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0],# Git
+        [0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0],#       G
+        [0,0,1,0,1,1,1,1,0,1,1,1,0,0,0,0,0,0],# Git
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] #       G
+         ]
+
+plt.imshow(jeden)
+plt.colorbar()
+plt.show()
