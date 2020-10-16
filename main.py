@@ -52,5 +52,15 @@ jeden = [
 plt.imshow(jeden)
 plt.colorbar()
 plt.show(block=False)
-plt.pause(10)
+plt.pause(1)
 plt.close()
+
+jeden[1][2] = 5
+
+plt.imshow(jeden)
+plt.colorbar()
+plt.show(block=False)
+plt.pause(1)
+plt.close()
+
+
