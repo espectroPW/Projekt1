@@ -52,3 +52,4 @@ jeden = [
 plt.imshow(jeden)
 plt.colorbar()
 plt.show()
+
