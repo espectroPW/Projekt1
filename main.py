@@ -49,6 +49,8 @@ jeden = [
         [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] #       G
          ]
 
+
+
 plt.imshow(jeden)
 plt.colorbar()
 plt.show(block=False)
