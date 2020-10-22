@@ -15,4 +15,7 @@ lab3
 
 zad 2 k-srednia
 
+wymiarów dowolna ilość.
+
+
 
