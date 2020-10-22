@@ -9,3 +9,10 @@ Alg. zachłanny
 
 http://prac.im.pwr.wroc.pl/~szwabin/assets/algo/lectures/12.pdf
 
+
+
+lab3
+
+zad 2 k-srednia
+
+
